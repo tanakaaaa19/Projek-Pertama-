@@ -1,4 +1,4 @@
-# membuat list
+# membuat list baru
 myList = [1,True, "Ok"]
 myList.append(100)
 print(myList)
@@ -28,4 +28,5 @@ for data in gabungTuple:
     
 # nested tuple
 myNestedTuple = ("Aku", "suka", "makan", ("apel", "pisang", "stroberi"))
+
 print(myNestedTuple[0], myNestedTuple[2],myNestedTuple[-1][2])
